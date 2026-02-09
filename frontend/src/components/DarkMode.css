@@ -1,0 +1,212 @@
+/* Dark Mode for Card Components */
+.dark-mode .ant-card {
+  background: #2d3748 !important;
+  border-color: #4a5568 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .ant-card-head {
+  background: #374151 !important;
+  border-bottom-color: #4a5568 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .ant-card-head-title {
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .ant-card-body {
+  color: #cbd5e0 !important;
+}
+
+/* Typography in Dark Mode */
+.dark-mode .ant-typography,
+.dark-mode .ant-typography-secondary {
+  color: #cbd5e0 !important;
+}
+
+.dark-mode .ant-typography strong,
+.dark-mode h1, .dark-mode h2, .dark-mode h3, 
+.dark-mode h4, .dark-mode h5, .dark-mode h6 {
+  color: #e2e8f0 !important;
+}
+
+/* Links in Dark Mode */
+.dark-mode a,
+.dark-mode .ant-typography a {
+  color: #63b3ed !important;
+}
+
+.dark-mode a:hover,
+.dark-mode .ant-typography a:hover {
+  color: #4299e1 !important;
+}
+
+.dark-mode .ant-tag {
+  background: #4a5568 !important;
+  border-color: #718096 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .ant-divider {
+  border-top-color: #4a5568 !important;
+}
+
+.dark-mode .ant-empty {
+  color: #a0aec0 !important;
+}
+
+.dark-mode .ant-empty-description {
+  color: #a0aec0 !important;
+}
+
+.dark-mode .ant-spin {
+  color: #63b3ed !important;
+}
+
+/* Alert Components in Dark Mode */
+.dark-mode .ant-alert {
+  background: #2d3748 !important;
+  border-color: #4a5568 !important;
+}
+
+.dark-mode .ant-alert-success {
+  background: #22543d !important;
+  border-color: #38a169 !important;
+}
+
+.dark-mode .ant-alert-success .ant-alert-message,
+.dark-mode .ant-alert-success .ant-alert-description {
+  color: #c6f6d5 !important;
+}
+
+.dark-mode .ant-alert-info {
+  background: #2c5282 !important;
+  border-color: #3182ce !important;
+}
+
+.dark-mode .ant-alert-info .ant-alert-message,
+.dark-mode .ant-alert-info .ant-alert-description {
+  color: #bee3f8 !important;
+}
+
+.dark-mode .ant-alert-error {
+  background: #742a2a !important;
+  border-color: #e53e3e !important;
+}
+
+.dark-mode .ant-alert-error .ant-alert-message,
+.dark-mode .ant-alert-error .ant-alert-description {
+  color: #fed7d7 !important;
+}
+
+/* Button Styling in Dark Mode */
+.dark-mode .ant-btn-primary {
+  background: #3b82f6 !important;
+  border-color: #3b82f6 !important;
+  color: white !important;
+}
+
+.dark-mode .ant-btn-primary:hover {
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+}
+
+.dark-mode .ant-btn-default {
+  background: #4a5568 !important;
+  border-color: #718096 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .ant-btn-default:hover {
+  background: #2d3748 !important;
+  border-color: #4a5568 !important;
+  color: #63b3ed !important;
+}
+
+.dark-mode .ant-btn-link {
+  color: #63b3ed !important;
+}
+
+.dark-mode .ant-btn-link:hover {
+  color: #4299e1 !important;
+}
+
+/* Icon Colors in Dark Mode */
+.dark-mode .anticon {
+  color: #63b3ed;
+}
+
+/* Newsletter Preview Dark Mode */
+.dark-mode .newsletter-preview-card {
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%) !important;
+}
+
+.dark-mode .newsletter-content {
+  background: #1a202c !important;
+  color: #e2e8f0 !important;
+}
+
+/* Improve text readability in cards */
+.dark-mode .ant-card p,
+.dark-mode .ant-card span,
+.dark-mode .ant-card div {
+  color: #cbd5e0;
+}
+
+.dark-mode .ant-card .ant-typography-secondary {
+  color: #a0aec0 !important;
+}
+
+/* Hover effects for cards in dark mode */
+.dark-mode .ant-card-hoverable:hover {
+  border-color: #4299e1 !important;
+  box-shadow: 0 4px 12px rgba(66, 153, 225, 0.2) !important;
+}
+
+/* Loading spinner in dark mode */
+.dark-mode .ant-spin-dot-item {
+  background-color: #63b3ed !important;
+}
+
+/* Input fields in dark mode */
+.dark-mode .ant-input,
+.dark-mode .ant-input-number {
+  background: #4a5568 !important;
+  border-color: #718096 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .ant-input::placeholder,
+.dark-mode .ant-input-number::placeholder {
+  color: #a0aec0 !important;
+}
+
+.dark-mode .ant-input:focus,
+.dark-mode .ant-input-number:focus {
+  border-color: #63b3ed !important;
+  box-shadow: 0 0 0 2px rgba(99, 179, 237, 0.2) !important;
+}
+
+/* Select and dropdown in dark mode */
+.dark-mode .ant-select-selector {
+  background: #4a5568 !important;
+  border-color: #718096 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .ant-select-dropdown {
+  background: #2d3748 !important;
+}
+
+.dark-mode .ant-select-item {
+  color: #cbd5e0 !important;
+}
+
+.dark-mode .ant-select-item-option-selected {
+  background: #4a5568 !important;
+}
+
+.dark-mode .ant-select-item-option-active {
+  background: #374151 !important;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ai-newsletter-studio",
+  "version": "1.0.0",
+  "description": "AI-powered newsletter generation from latest news",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" --names \"API,UI\" --prefix-colors \"yellow,cyan\"",
+    "backend": "..\\..\\langchainenv\\Scripts\\python.exe -m uvicorn api:app --reload --port 8000",
+    "frontend": "cd frontend && npm run dev",
+    "install-deps": "cd frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
